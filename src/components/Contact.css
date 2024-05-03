@@ -1,0 +1,160 @@
+.portfolio-contact-section {
+  height: 100%;
+  text-align: center;
+  background-color: #1c0c5b;
+}
+
+.portfolio-contact-h1 {
+  color: beige;
+  font-size: 3rem;
+}
+
+.portfolio-contact-form {
+  height: 60%;
+  width: 30%;
+  background-color: #3d2c8d;
+  margin: auto;
+  position: relative;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid #576cbc;
+  border-radius: 3%;
+  box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-contact-form-content {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: center;
+  gap: 2%;
+  color: #faf0e6;
+  font-size: 1.5rem;
+}
+
+.portfolio-contact-form-text {
+  resize: none;
+}
+
+.form-btn {
+  font-size: 1.6rem;
+  background-color: #201658;
+  color: #faf0e6;
+  border-radius: 4%;
+  border-color: #624cc6;
+}
+
+.portfolio-contact-div {
+  height: 100%;
+  opacity: 0;
+  transform: translateY(75px);
+}
+
+.hidden {
+  animation: fade 1.5s forwards;
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  .portfolio-contact-h1 {
+    font-size: 2.8rem;
+  }
+  .portfolio-contact-form {
+    width: 35%;
+  }
+  .portfolio-contact-form-label {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .portfolio-contact-h1 {
+    font-size: 2.6rem;
+  }
+  .portfolio-contact-form {
+    width: 40%;
+  }
+  .form-btn {
+    font-size: 1.4rem;
+  }
+  .portfolio-contact-form-label {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .portfolio-contact-h1 {
+    font-size: 2.4rem;
+  }
+  .portfolio-contact-form {
+    width: 45%;
+  }
+  .form-btn {
+    font-size: 1.2rem;
+  }
+  .portfolio-contact-form-label {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .portfolio-contact-h1 {
+    font-size: 2.2rem;
+  }
+  .portfolio-contact-form {
+    width: 65%;
+  }
+  .form-btn {
+    font-size: 1.2rem;
+  }
+  .portfolio-contact-form-label {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .portfolio-contact-h1 {
+    font-size: 2rem;
+  }
+  .portfolio-contact-form {
+    width: 80%;
+  }
+  .portfolio-contact-form-content {
+    grid-template-columns: max-content;
+  }
+  .form-btn {
+    font-size: 1rem;
+  }
+  .portfolio-contact-form-label {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .portfolio-contact-h1 {
+    font-size: 1.8rem;
+  }
+  .portfolio-contact-form {
+    width: 90%;
+  }
+  .portfolio-contact-form-content {
+    grid-template-columns: max-content;
+  }
+  .form-btn {
+    font-size: 1rem;
+  }
+  .form-btn {
+    font-size: 1rem;
+  }
+  .portfolio-contact-form-label {
+    font-size: 1rem;
+  }
+}

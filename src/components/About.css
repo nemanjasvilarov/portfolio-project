@@ -1,0 +1,94 @@
+.portfolio-about-me-section {
+  height: 100%;
+  text-align: center;
+}
+
+.portfolio-about-me-section-div {
+  height: 100%;
+  background-color: #0f044cf8;
+}
+
+.portfolio-about-me-section-h1 {
+  font-size: 3rem;
+  color: #faf0e6;
+}
+
+.portfolio-about-me-section-h2 {
+  color: #faf0e6;
+  width: 80%;
+  position: relative;
+  top: 25%;
+  margin: auto;
+  color: #faf0e6;
+  font-size: 2rem;
+}
+
+.portfolio-about-me-div {
+  opacity: 0;
+  transform: translateY(75px);
+}
+
+.hidden {
+  animation: fade 1.5s forwards;
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  .portfolio-about-me-section-h1 {
+    font-size: 2.5rem;
+  }
+  .portfolio-about-me-section-h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .portfolio-about-me-section-h1 {
+    font-size: 2.3rem;
+  }
+  .portfolio-about-me-section-h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .portfolio-about-me-section-h1 {
+    font-size: 2.1rem;
+  }
+  .portfolio-about-me-section-h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .portfolio-about-me-section-h1 {
+    font-size: 2.1rem;
+  }
+  .portfolio-about-me-section-h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .portfolio-about-me-section-h1 {
+    font-size: 1.8rem;
+  }
+  .portfolio-about-me-section-h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .portfolio-about-me-section-h1 {
+    font-size: 1.8rem;
+  }
+  .portfolio-about-me-section-h2 {
+    font-size: 1rem;
+  }
+}

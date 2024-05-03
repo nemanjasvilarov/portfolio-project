@@ -1,0 +1,157 @@
+.portfolio-nav-bar {
+  background-color: #1d267d;
+  position: fixed;
+  height: 60%;
+  top: 20%;
+  width: 6%;
+  border-radius: 10%;
+  text-align: center;
+  transition: 1s ease-in-out;
+  z-index: 1;
+}
+
+.portfolio-nav-bar-ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.portfolio-nav-bar-a {
+  color: #faf0e6;
+  text-decoration: none;
+}
+
+.portfolio-nav-bar-btn {
+  float: right;
+  width: 10px;
+  height: 40px;
+}
+
+.icon {
+  color: #5755fe;
+  height: 5%;
+  position: fixed;
+  top: 47.5%;
+  right: 1%;
+  z-index: 1;
+}
+
+.icon:hover {
+  scale: 1.5;
+  color: #4e59bd;
+}
+
+.menu-icon {
+  font-size: 2rem;
+}
+
+.portfolio-nav-bar-span {
+  display: none;
+  font-size: 1rem;
+}
+
+.portfolio-nav-bar-a:hover > .portfolio-nav-bar-span {
+  display: block;
+}
+
+.portfolio-nav-bar-a:hover > .menu-icon {
+  scale: 1.2;
+  color: #5755fe;
+}
+
+.appear-menu {
+  right: 4%;
+}
+
+.close-menu {
+  right: -100%;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  .portfolio-nav-bar {
+    width: 8%;
+  }
+  .menu-icon {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .portfolio-nav-bar {
+    width: 10%;
+  }
+  .menu-icon {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .portfolio-nav-bar {
+    width: 12%;
+  }
+  .menu-icon {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .portfolio-nav-bar {
+    width: 16%;
+  }
+  .appear-menu {
+    right: 6%;
+  }
+  .menu-icon {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .portfolio-nav-bar {
+    width: 100%;
+    height: 6%;
+    top: 0%;
+    right: 0%;
+    border-radius: 0% 0% 10% 10%;
+  }
+  .portfolio-nav-bar-ul {
+    flex-direction: row;
+    align-items: center;
+  }
+  .icon {
+    display: none;
+  }
+  .menu-icon {
+    font-size: 1.2rem;
+  }
+  .portfolio-nav-bar-span {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .portfolio-nav-bar {
+    width: 100%;
+    height: 6%;
+    top: 0%;
+    right: 0%;
+    border-radius: 0% 0% 10% 10%;
+  }
+
+  .portfolio-nav-bar-ul {
+    flex-direction: row;
+    align-items: center;
+  }
+  .icon {
+    display: none;
+  }
+  .menu-icon {
+    font-size: 1.2rem;
+  }
+  .portfolio-nav-bar-span {
+    font-size: 0.8rem;
+  }
+}

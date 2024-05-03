@@ -1,0 +1,39 @@
+.footer-section {
+  height: 10%;
+  text-align: center;
+  background-color: #1b1a55;
+  color: #faf0e6;
+}
+
+.footer-section-div {
+  position: relative;
+  top: 25%;
+  height: 50%;
+}
+
+.footer-section-icon {
+  font-size: 1.5rem;
+  margin: auto 0.2%;
+}
+
+.footer-section-text {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footer-section-icon {
+    font-size: 1.2rem;
+  }
+  .footer-section-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .footer-section-icon {
+    font-size: 1.2rem;
+  }
+  .footer-section-text {
+    font-size: 0.8rem;
+  }
+}
