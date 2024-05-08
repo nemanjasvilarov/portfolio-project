@@ -10,7 +10,7 @@
 }
 
 .portfolio-contact-form {
-  min-height: 60%;
+  min-height: 60dvh;
   width: 30%;
   background-color: #3d2c8d;
   margin: auto;
@@ -125,7 +125,6 @@
     font-size: 2rem;
   }
   .portfolio-contact-form {
-    max-height: 80%;
     width: 80%;
   }
   .portfolio-contact-form-content {
@@ -144,7 +143,6 @@
     font-size: 1.8rem;
   }
   .portfolio-contact-form {
-    max-height: 80%;
     width: 90%;
   }
   .portfolio-contact-form-content {
