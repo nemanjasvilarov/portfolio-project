@@ -10,7 +10,7 @@
 }
 
 .portfolio-contact-form {
-  min-height: 60svh;
+  min-height: 60%;
   width: 30%;
   background-color: #3d2c8d;
   margin: auto;
@@ -47,7 +47,7 @@
 }
 
 .portfolio-contact-div {
-  height: 100svh;
+  height: 100%;
   opacity: 0;
   transform: translateY(75px);
 }
