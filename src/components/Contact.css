@@ -120,7 +120,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 20em) and (max-width: 30em) {
   .portfolio-contact-h1 {
     font-size: 2rem;
   }
@@ -141,7 +141,7 @@
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 19em) {
   .portfolio-contact-h1 {
     font-size: 1.8rem;
   }
