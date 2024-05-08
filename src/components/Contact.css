@@ -111,7 +111,6 @@
   }
   .portfolio-contact-form {
     width: 65%;
-    padding-bottom: 10%;
   }
   .form-btn {
     font-size: 1.2rem;
@@ -153,9 +152,6 @@
   }
   .portfolio-contact-form-content {
     grid-template-columns: max-content;
-  }
-  .form-btn {
-    font-size: 1rem;
   }
   .form-btn {
     font-size: 1rem;
