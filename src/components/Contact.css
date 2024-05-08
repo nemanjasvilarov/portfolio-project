@@ -10,12 +10,12 @@
 }
 
 .portfolio-contact-form {
-  min-height: 450px;
+  min-height: 70%;
   width: 30%;
   background-color: #3d2c8d;
   margin: auto;
   position: relative;
-  top: 15%;
+  top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
