@@ -136,6 +136,9 @@
   .portfolio-contact-form-label {
     font-size: 1rem;
   }
+  .portfolio-contact-form-text {
+    height: 70%;
+  }
 }
 
 @media screen and (max-width: 319px) {
@@ -156,5 +159,8 @@
   }
   .portfolio-contact-form-label {
     font-size: 1rem;
+  }
+  .portfolio-contact-form-text {
+    height: 70%;
   }
 }
