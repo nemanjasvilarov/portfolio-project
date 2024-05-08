@@ -6,6 +6,6 @@ Technologies used to make this website:
 - React
 - TypeScript
 - HTML
-_ CSS
+- CSS
 
 URL: https://nemanja-svilarov-portfolio.onrender.com/
