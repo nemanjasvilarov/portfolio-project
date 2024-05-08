@@ -7,8 +7,15 @@ const Footer = () => {
   return (
     <section className="footer-section" id="footer">
       <div className="footer-section-div">
-        <FontAwesomeIcon icon={faLinkedin} className="footer-section-icon" />
-        <FontAwesomeIcon icon={faGithub} className="footer-section-icon" />
+        <a
+          className="footer-a"
+          href="https://www.linkedin.com/in/nemanja-svilarov-3b32a6209/"
+        >
+          <FontAwesomeIcon icon={faLinkedin} className="footer-section-icon" />
+        </a>
+        <a className="footer-a" href="https://github.com/nemanjasvilarov">
+          <FontAwesomeIcon icon={faGithub} className="footer-section-icon" />
+        </a>
         <p className="footer-section-text">
           Copyright © {new Date().getFullYear()} Nemanja Svilarov
         </p>

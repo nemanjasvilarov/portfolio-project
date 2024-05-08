@@ -24,9 +24,6 @@ const Header = () => {
     <>
       <section className="portfolio-header-section" id="header" ref={ref}>
         <div className="portfolio-header-div">
-          {/* <div className="portfolio-header-div-bar">
-            <h1 className="portfolio-header-div-bar-h1"></h1>
-          </div> */}
           <div className="portfolio-header-content-div">
             <div className="portfolio-header-content-text-div">
               <h1 className="portfolio-header-h1">{headerContent.h1}</h1>
