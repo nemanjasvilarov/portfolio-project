@@ -10,7 +10,7 @@
 }
 
 .portfolio-contact-form {
-  height: 60%;
+  min-height: 60%;
   width: 30%;
   background-color: #3d2c8d;
   margin: auto;
