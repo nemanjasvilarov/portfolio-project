@@ -276,6 +276,9 @@
   .portfolio-my-projects-expand-picture-img {
     width: 100%;
   }
+  .portfolio-my-projects-expand-picture-icon {
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 319px) {
@@ -308,5 +311,8 @@
   }
   .portfolio-my-projects-expand-picture-img {
     width: 100%;
+  }
+  .portfolio-my-projects-expand-picture-icon {
+    font-size: 1.8rem;
   }
 }

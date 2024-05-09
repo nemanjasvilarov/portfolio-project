@@ -127,6 +127,7 @@
   .portfolio-contact-form {
     width: 85%;
     padding-bottom: 10%;
+    height: 80%;
   }
   .portfolio-contact-form-content {
     grid-template-columns: max-content;
@@ -149,6 +150,8 @@
   .portfolio-contact-form {
     width: 95%;
     padding-bottom: 10%;
+    height: 85%;
+    top: 5%;
   }
   .portfolio-contact-form-content {
     grid-template-columns: max-content;
