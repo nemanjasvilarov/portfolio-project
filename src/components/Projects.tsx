@@ -56,7 +56,7 @@ const Projects = () => {
           ref={refOne}
         >
           <h1 className="portfolio-project-h1">
-            Protographer portfolio website
+            Photographer portfolio website
           </h1>
           <div className="portfolio-project-content">
             <div className="portfolio-project-img-div">
@@ -112,7 +112,7 @@ const Projects = () => {
           <div className="portfolio-project-content">
             <div className="portfolio-project-content-div">
               <p className="portfolio-project-content-p main">
-                Movie scores is a web appliaction where user can search for the
+                Movie scores is a web application where users can search for
                 movies. Visitors can then rate those movies from 1 to 5. Movies
                 that were rated can be viewed and sorted by visitors score and
                 IMDB score.
@@ -199,7 +199,7 @@ const Projects = () => {
             <div className="portfolio-project-content-div">
               <p className="portfolio-project-content-p main">
                 Emelord is a web application where users can share their photos.
-                To be able to use all the application futures visitors need to
+                To be able to use all the application features, visitors need to
                 register or log in if they already have an account. Users can
                 then post, comment and like photos that are posted in the app.
               </p>
